@@ -12,3 +12,8 @@ def calculate_power():
 
     # Print the final calculated answer in green text
     print("\033[92mThe result is:\033[0m", power_result)
+
+    # This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the power command we made at the top
+    calculate_power()
