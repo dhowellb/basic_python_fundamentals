@@ -11,3 +11,8 @@ def calculate_product():
 
     # Print the final multiplied answer in green text
     print("\033[92mThe product is:\033[0m", total_product)
+
+    # This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the multiplication command we made at the top
+    calculate_product()
