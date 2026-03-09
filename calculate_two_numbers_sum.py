@@ -11,3 +11,8 @@ def calculate_sum():
 
     # Print the final answer in green text
     print("\033[92mThe sum is:\033[0m", total_sum)
+
+    # This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the addition command we made at the top
+    calculate_sum()
