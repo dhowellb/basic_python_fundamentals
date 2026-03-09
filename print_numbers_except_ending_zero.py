@@ -12,3 +12,8 @@ def print_numbers_except_ending_zero():
             # Print the number we just found in green text
             # We use 'str(i)' to turn the number into text so it prints correctly with the color
             print("\033[92m" + str(i) + "\033[0m")
+
+# This part tells the computer to actually start the program
+if __name__ == "__main__":
+    # Run the printing command we made at the top
+    print_numbers_except_ending_zero()
